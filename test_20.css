@@ -1,0 +1,74 @@
+﻿*{margin:0;padding:0;list-style:none;border:none;}
+body{
+	font-family:"微软雅黑";
+	font-size:16px;
+}
+.all{
+	width:639px;
+	height:400px;
+	margin:50px auto;
+	background-color:#1e2d3b;
+}
+.left{
+	width:335px;
+	height:400px;
+	background:url(../img3/road.png) no-repeat 60px 0px;
+	position:relative;
+	float:left;
+}
+.one{
+	width:158px;
+	height:177px;
+	background:url(../img3/icon1.png) no-repeat;
+	position:absolute;
+	left:6px;
+	top:130px;
+
+}
+.two{
+	width:98px;
+	height:106px;
+	background:url(../img3/icon3.png) no-repeat;
+	position:absolute;
+	right:0px;
+	top:129px;
+}
+.three{
+	width:69px;
+	height:78px;
+	background:url(../img3/icon5.png) no-repeat;
+	position:absolute;
+	left:118px;
+	top:10px;
+}
+.four{
+	width:45px;
+	height:50px;
+	background:url(../img3/icon7.png) no-repeat;
+	position:absolute;
+	left:225px;
+	top:7px;
+}
+.one:hover{background:url(../img3/icon2.png) no-repeat;}
+.two:hover{background:url(../img3/icon4.png) no-repeat;}
+.three:hover{background:url(../img3/icon6.png) no-repeat;}
+.four:hover{background:url(../img3/icon8.png) no-repeat;}
+.right{
+	width:264px;
+	height:335px;
+	float:right;
+    padding-top:65px;
+	padding-left:30px
+}
+.right h2{
+	font-size:88px;
+	color:#FD5200;
+}
+.right p{
+	color:#FD5200;
+	font-size:18px;
+	font-weight:bold;
+}
+.right img{
+	margin-top:20px;
+}
